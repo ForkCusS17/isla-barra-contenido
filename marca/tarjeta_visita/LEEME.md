@@ -4,6 +4,6 @@
 - `anverso_300ppp.png`, `reverso_300ppp.png`: imágenes a 300 ppp con sangrado. `vista_previa.png`: las dos caras al tamaño de corte.
 - QR comprobado con un lector: abre https://islaybarra.es.
 - Pedido recomendado: doble cara, 350 g o más, acabado mate (opcional: barniz selectivo en «Isla & Barra").
-- Pendiente: teléfono o WhatsApp, si Samuel quiere añadirlo.
+- Sin teléfono a propósito: el número de Samuel es personal. No añadirlo a ninguna pieza (tarjeta, web, redes) sin que él lo pida; si algún día hay un número de empresa, se añade entonces.
 
 Para cambiar textos: editar `_fuentes/tarjeta_c.js` y ejecutar `npm install && node tarjeta_c.js` (necesita Playwright y Chromium).

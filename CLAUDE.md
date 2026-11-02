@@ -11,6 +11,7 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - Las recetas son **orientativas**, nunca «oficiales».
 - No mencionar modelos de IA concretos en los textos públicos.
 - Marca: azul atlántico #0E4A5A, turquesa #2A9D8F (texto turquesa: #1F7A70), arena #D9B382, crema #F6F1E8, carbón #282828; Playfair Display (titulares) y Montserrat (resto), archivos en `redes/destacadas/_fuentes/`.
+- **Teléfono**: el número de Samuel es personal; no ponerlo en ningún contenido público. Contacto: correo, web, Instagram y mensajes «COSTE».
 - Instagram: @islaybarra.hosteleria · web https://islaybarra.es · app https://app.islaybarra.es · correo info@islaybarra.es. Llamada a la acción habitual: escribir «COSTE» por mensaje.
 
 ## Calendario y publicación (desde el 2-11-2026)
