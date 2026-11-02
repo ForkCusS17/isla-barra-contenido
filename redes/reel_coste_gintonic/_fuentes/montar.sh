@@ -12,7 +12,7 @@ seg(){ # $1 plano  $2 rótulo  $3 inicio  $4 duración  $5 velocidad (1 normal, 
 }
 seg 0_copa.mp4    1_gancho.png  0 3.0 1   a.mp4
 seg 1_ginebra.mp4 2_ginebra.png 0 3.5 1   b.mp4
-seg 2_tonica.mp4  3_tonica.png  0 3.5 1   c.mp4
+seg 2_tonica.mp4  3_tonica.png  0.9 3.5 1.15 c.mp4   # empieza en 0,9 s: antes hay una mano y un salto de la copa
 seg 3_hielo.mp4   4_hielo.png   0 3.5 1   d.mp4
 seg 0_copa.mp4    5_coste.png   0 3.5 1.5 e.mp4
 seg 0_copa.mp4    6_margen.png  1 4.0 1.5 f.mp4
