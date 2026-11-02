@@ -4,7 +4,7 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 
 ## Reglas permanentes
 - Responder y escribir siempre en **español**. En redes, tratar al público de **«ustedes»** (Canarias), tono cercano y profesional, sin presentaciones comerciales vacías.
-- **Nunca publicar** en Instagram, Netlify, la web ni la app. **Nunca** hacer merge ni push a `main` del repositorio de la app (`ForkCusS17/Isla-barra-control`): ahí solo ramas `claude/...` y pull requests para revisar.
+- **Nunca publicar** en Instagram, Netlify, la web ni la app sin aprobación expresa de Samuel. Única excepción: redes sociales con la habilidad `social-publisher` (SocialClaw), y solo así: preparar y validar `schedule.json`, enseñar a Samuel cada publicación (red, cuenta, texto, imagen o vídeo, fecha y hora) y ejecutar `socialclaw apply` únicamente después de su «sí» explícito en esa misma conversación. Las tareas programadas **nunca** ejecutan `apply`: como mucho dejan el `schedule.json` validado en la carpeta de la semana. La clave de SocialClaw la pone Samuel en su terminal (`socialclaw login`); nunca se escribe en el chat, en archivos ni en el repositorio. **Nunca** hacer merge ni push a `main` del repositorio de la app (`ForkCusS17/Isla-barra-control`): ahí solo ramas `claude/...` y pull requests para revisar.
 - **Higgsfield**: máximo **30 créditos por semana** entre todas las tareas. Consultar siempre el coste (`get_cost`) antes de generar; usar borradores 480p salvo que Samuel pida otra cosa. Anotar cada gasto en `informes/creditos.md` (fecha, job, créditos, saldo) y no superar el límite semanal: si no alcanza, dejar el guion preparado y decirlo.
 - Revisar siempre cada vídeo o imagen generado (fotogramas: manos, líquidos, texto raro, caras) antes de darlo por bueno. La IA va como **ambiente**, nunca como el bar de un cliente, el local de Samuel o un resultado real.
 - **Cifras**: comprobadas con cálculo; si no son reales, rótulo «Cifras de ejemplo». Nunca inventar clientes, opiniones, ahorros ni resultados. El margen es **bruto, no beneficio**. Una desviación de stock **no demuestra** pérdida ni robo.
@@ -19,7 +19,10 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - `web/borrador-carta/` — borrador de rediseño «la web como una carta» (no publicado).
 - `informes/` — informe semanal y `creditos.md`.
 
-## Habilidades útiles (instalar en la sesión si no están)
+## Habilidades útiles
+- En este repositorio: `.claude/skills/social-publisher` (programar y publicar en redes con SocialClaw; ver la regla de publicación).
+
+Otras (instalar en la sesión si no están):
 - Instagram: `https://github.com/sergebulaev/instagram-skills` y `https://github.com/Jakeschincariol/instagram-agent-skill` (copiar sus carpetas de `skills/` a `~/.claude/skills/`).
 - Diseño web: `https://github.com/leonxlnx/taste-skill` (`skills/taste-skill`).
 Revisar el código antes de usarlo; sus scripts solo procesan texto o abren un navegador local.
