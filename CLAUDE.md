@@ -19,10 +19,10 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - `web/borrador-carta/` — borrador de rediseño «la web como una carta» (no publicado).
 - `informes/` — informe semanal y `creditos.md`.
 
-## Habilidades útiles
-- En este repositorio: `.claude/skills/social-publisher` (programar y publicar en redes con SocialClaw; ver la regla de publicación).
-
-Otras (instalar en la sesión si no están):
-- Instagram: `https://github.com/sergebulaev/instagram-skills` y `https://github.com/Jakeschincariol/instagram-agent-skill` (copiar sus carpetas de `skills/` a `~/.claude/skills/`).
-- Diseño web: `https://github.com/leonxlnx/taste-skill` (`skills/taste-skill`).
-Revisar el código antes de usarlo; sus scripts solo procesan texto o abren un navegador local.
+## Habilidades (en `.claude/skills/` de este repositorio, ya revisadas)
+- **Redes (Instagram)**: `ig-*` (planificar la semana, pies de foto, carruseles, historias, Reels con ganchos puntuados, hashtags, perfil, comentarios, respuestas, mensajes, humanizar textos). Los scripts de `ig-human` detectan sobre todo patrones en inglés: con textos en español, tomarlos con cautela.
+- **Contenido y marketing**: `brand-voice` (voz de Samuel a partir de sus textos reales), `content-engine`, `marketing-campaign`.
+- **Web**: `seo` y `taste-skill` (diseño y revisión con navegador; para la app, solo revisar sin cambiar su identidad visual).
+- **Vídeo**: `remotion-video-creation` (vídeos con código, ideal para cifras exactas animadas sin gastar créditos) y `video-editing` (montaje con FFmpeg).
+- **Publicar**: `social-publisher` (SocialClaw), solo con la regla de aprobación de arriba.
+- Servicios de pago o con clave que **no** están configurados: ElevenLabs, fal.ai, Apify, Publora. No usarlos ni pedir claves por el chat; si una tarea los necesita, proponerlo a Samuel.
