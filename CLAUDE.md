@@ -24,5 +24,5 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - **Contenido y marketing**: `brand-voice` (voz de Samuel a partir de sus textos reales), `content-engine`, `marketing-campaign`.
 - **Web**: `seo` y `taste-skill` (diseño y revisión con navegador; para la app, solo revisar sin cambiar su identidad visual).
 - **Vídeo**: `remotion-video-creation` (vídeos con código, ideal para cifras exactas animadas sin gastar créditos) y `video-editing` (montaje con FFmpeg).
-- **Publicar**: `social-publisher` (SocialClaw), solo con la regla de aprobación de arriba.
+- **Publicar**: `social-publisher` (SocialClaw), solo con la regla de aprobación de arriba. Cuenta conectada: Instagram `islaybarra.hosteleria`, provider `instagram` (standalone), account_id `acct_mvzh5nwm_2d0b8b07ac0f`. La sesión de SocialClaw solo existe en el portátil de Samuel (`socialclaw login`); en la nube no hay clave.
 - Servicios de pago o con clave que **no** están configurados: ElevenLabs, fal.ai, Apify, Publora. No usarlos ni pedir claves por el chat; si una tarea los necesita, proponerlo a Samuel.
