@@ -1,0 +1,25 @@
+{
+  "timezone": "Atlantic/Canary",
+  "mode": "scheduled",
+  "posts": [
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Reel coste del gin-tonic (prueba)",
+      "description": "Un gin-tonic a 9 € en carta. ¿Saben cuánto les cuesta servirlo?\n\nHicimos la cuenta con cifras de ejemplo:\n· Ginebra, 50 ml: 1,00 € (botella de 70 cl a 14 €)\n· Tónica: 1,00 €\n· Hielo y lima: 0,20 €\nCoste de la copa: 2,20 €\n\nSin el IGIC (7 %), esos 9 € se quedan en 8,41 €. Por copa quedan 6,21 € de margen bruto. Ojo: es margen bruto, no beneficio. De ahí todavía salen el personal, el alquiler y el resto de gastos.\n\nCon sus precios de compra y sus medidas, el número cambia. Y ese es el que importa.\n\n¿Lo calculamos con su carta? Escríbannos «COSTE» por mensaje.\n\nCifras de ejemplo. Medidas orientativas.\n\n#hosteleriacanarias #escandallo #gintonic #costesdebar",
+      "publish_at": "2026-11-03T13:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mvzhx9cj_faca09bd8e67",
+          "url": "https://getsocialclaw.com/media/asset_mvzhx9cj_faca09bd8e67/dlv_mvzhx9cj_e4f05af78914/reel_coste_gintonic.mp4",
+          "managed": true,
+          "kind": "video",
+          "mime": "video/mp4"
+        }
+      ],
+      "settings": {
+        "instagramPublishMode": "reel"
+      }
+    }
+  ]
+}
