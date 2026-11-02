@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isla &amp; Barra · Asesoría de barra para hostelería en Canarias</title>
+<meta name="description" content="Asesoría de barra para bares, restaurantes, hoteles, cafeterías y coctelerías en Canarias: coste de cada bebida, cartas con margen y control de stock, con números que puedes comprobar.">
+<meta name="theme-color" content="#0E4A5A">
+<link rel="canonical" href="https://islaybarra.es/">
+<meta property="og:url" content="https://islaybarra.es/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Isla &amp; Barra">
+<meta property="og:title" content="Que cada copa deje lo que tiene que dejar">
+<meta property="og:description" content="Asesoría de barra en Canarias: escandallos, cartas de bebidas y control de stock.">
+<link rel="preload" href="fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Isla & Barra","url":"https://islaybarra.es/","slogan":"Ideas digitales para hostelería","description":"Asesoría de barra para hostelería: escandallos, cartas de bebidas, control de stock y coctelería.","areaServed":{"@type":"AdministrativeArea","name":"Islas Canarias"},"email":"info@islaybarra.es","sameAs":["https://instagram.com/islaybarra.hosteleria"],"founder":{"@type":"Person","name":"Samuel Garcia Gutierrez","jobTitle":"Consultor de hostelería"},"knowsAbout":["Escandallos","Cartas de bebidas","Control de stock","Coctelería"]}
+</script>
+<style>
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/montserrat.woff2) format('woff2')}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400 900;font-display:swap;src:url(fonts/playfair-display.woff2) format('woff2')}
+:root{
+ --atlantico:#0E4A5A;--atlantico-hondo:#0A3A47;--turquesa:#2A9D8F;--turquesa-tinta:#1D6F65;--arena:#D9B382;--crema:#F6F1E8;--papel:#FFFDF8;--carbon:#282828;--gris:#4A4A4A;--linea:#E3D9C6;
+ --titulo:'Playfair Display',Georgia,serif;--texto:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
+ --ancho:1160px;--margen:clamp(20px,5vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--crema);color:var(--carbon);font:400 17px/1.65 var(--texto)}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--arena);outline-offset:3px;border-radius:4px}
+.saltar{position:absolute;left:12px;top:-60px;background:var(--carbon);color:#fff;padding:10px 16px;border-radius:6px;z-index:20}
+.saltar:focus{top:12px}
+.envoltura{max-width:var(--ancho);margin:0 auto;padding:0 var(--margen)}
+h1,h2,h3{font-family:var(--titulo);color:var(--atlantico);margin:0;font-weight:600;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,4vw,2.9rem);line-height:1.1}
+h3{font-size:1.4rem;line-height:1.2}
+p{margin:0}
+.entradilla{font-size:1.1rem;color:var(--gris);max-width:58ch}
+.seccion{padding:clamp(64px,9vw,112px) 0}
+.cabeza-seccion{display:grid;gap:14px;max-width:62ch;margin-bottom:clamp(36px,5vw,56px)}
+
+/* Botones */
+.boton{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;border-radius:8px;font:600 16px/1.2 var(--texto);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background-color .15s,color .15s}
+.boton-principal{background:var(--arena);color:var(--carbon)}
+.boton-principal:hover{background:#E6C79F}
+.boton-secundario{border-color:currentColor;color:var(--crema)}
+.boton-secundario:hover{background:rgba(246,241,232,.1)}
+.boton-oscuro{background:var(--atlantico);color:var(--crema)}
+.boton-oscuro:hover{background:var(--atlantico-hondo)}
+
+/* Cabecera */
+.cabecera{position:sticky;top:0;z-index:10;background:rgba(246,241,232,.94);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--linea)}
+.cabecera .envoltura{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}
+.marca{font:700 26px/1 var(--titulo);color:var(--atlantico);text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:44px}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{font-weight:500;font-size:15px;text-decoration:none;padding:12px 0}
+.nav a:hover{color:var(--turquesa-tinta)}
+.nav .boton{padding:0 20px;min-height:46px;font-size:15px}
+.menu-movil{display:none}
+@media (max-width:860px){
+ .nav .enlace{display:none}
+ .menu-movil{display:block;position:relative}
+ .menu-movil summary{list-style:none;cursor:pointer;min-height:46px;min-width:46px;display:grid;place-items:center;border:1px solid var(--linea);border-radius:8px;font-weight:600;font-size:15px;padding:0 14px}
+ .menu-movil summary::-webkit-details-marker{display:none}
+ .menu-movil nav{position:absolute;right:0;top:54px;background:var(--papel);border:1px solid var(--linea);border-radius:10px;padding:8px;display:grid;min-width:220px;box-shadow:0 12px 30px rgba(14,74,90,.14)}
+ .menu-movil nav a{padding:12px 14px;text-decoration:none;font-weight:500;border-radius:6px}
+ .menu-movil nav a:hover{background:var(--crema)}
+}
+@media (max-width:420px){.nav .boton{display:none}}
+
+/* Portada */
+.portada{background:var(--atlantico);color:var(--crema);overflow:hidden}
+.portada .envoltura{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(36px,6vw,80px);align-items:center;padding-top:clamp(56px,8vw,96px);padding-bottom:clamp(56px,8vw,96px)}
+.portada h1{color:var(--crema);font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;font-weight:650;letter-spacing:-.02em;max-width:13ch}
+.portada .entradilla{color:#E9E2D2;margin-top:24px;font-size:1.15rem}
+.acciones{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.firma{display:flex;align-items:center;gap:14px;margin-top:34px;color:#D8D0BF;font-size:15px;line-height:1.45}
+.firma img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid var(--arena);flex:none}
+@media (max-width:900px){.portada .envoltura{grid-template-columns:1fr}}
+
+/* Escandallo (calculadora) */
+.escandallo{background:var(--papel);color:var(--carbon);border-radius:14px 14px 0 0;padding:26px 26px 22px;box-shadow:0 30px 60px -20px rgba(0,0,0,.45);position:relative;max-width:440px;width:100%;justify-self:end;font-variant-numeric:tabular-nums}
+.escandallo::after{content:"";position:absolute;left:0;right:0;bottom:-9px;height:10px;background:radial-gradient(circle at 7px 0,transparent 6px,var(--papel) 6.5px) 0 0/14px 10px repeat-x}
+@media (max-width:900px){.escandallo{justify-self:start}}
+.escandallo h2{font-size:1.55rem;color:var(--atlantico)}
+.escandallo .ayuda{font-size:14px;color:var(--gris);margin-top:4px}
+.campos{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin:18px 0 16px}
+.campo{display:grid;gap:5px}
+.campo label{font-size:13px;font-weight:600;color:var(--gris);line-height:1.3}
+.campo input{font:500 17px var(--texto);font-variant-numeric:tabular-nums;width:100%;min-height:46px;padding:8px 12px;border:1px solid #CDBF9F;border-radius:8px;background:#fff;color:var(--carbon)}
+.campo input:focus{outline:3px solid var(--arena);outline-offset:1px;border-color:var(--atlantico)}
+.lineas{border-top:1px dashed #CDBF9F;padding-top:12px;display:grid;gap:6px;font-size:15px}
+.linea{display:flex;justify-content:space-between;gap:12px}
+.linea b{font-weight:600}
+.resultado{margin-top:12px;padding:14px 16px;background:var(--crema);border-radius:10px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.resultado span{font-weight:600;color:var(--atlantico-hondo)}
+.resultado strong{font:700 1.9rem/1 var(--titulo);color:var(--atlantico)}
+.resultado small{display:block;font:500 13px var(--texto);color:var(--turquesa-tinta);text-align:right;margin-top:4px}
+.nota{font-size:13px;color:var(--gris);margin-top:12px;line-height:1.5}
+.escandallo .boton{width:100%;margin-top:16px}
+.aviso-error{color:#9A3412;font-size:13px;margin-top:8px;min-height:1em}
+
+/* Problemas */
+.problemas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px}
+.problema{padding:26px 0;border-top:1px solid var(--linea);display:grid;gap:10px}
+.problema q{font:500 1.45rem/1.25 var(--titulo);color:var(--atlantico);quotes:"«" "»"}
+.problema p{color:var(--gris)}
+.problema a{font-weight:600;color:var(--turquesa-tinta);text-underline-offset:3px;justify-self:start;display:inline-flex;align-items:center;min-height:44px}
+@media (max-width:760px){.problemas{grid-template-columns:1fr}}
+
+/* Servicios */
+.servicios{background:var(--papel);border-block:1px solid var(--linea)}
+.servicio{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px 56px;padding:34px 0;border-top:1px solid var(--linea)}
+.servicio:last-child{border-bottom:1px solid var(--linea)}
+.servicio h3{font-size:clamp(1.5rem,2.6vw,1.9rem)}
+.servicio .para{color:var(--gris);margin-top:10px}
+.servicio ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.servicio li{padding-left:26px;position:relative}
+.servicio li::before{content:"";position:absolute;left:0;top:.62em;width:12px;height:2px;background:var(--turquesa)}
+.recibes{font-weight:600;font-size:14px;color:var(--turquesa-tinta);margin-bottom:8px}
+@media (max-width:760px){.servicio{grid-template-columns:1fr}}
+
+/* Método */
+.metodo-cabeza{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 56px;align-items:end;margin-bottom:48px}
+.principio{background:var(--atlantico);color:#E9E2D2;border-radius:12px;padding:24px 26px;font-size:16px}
+.principio strong{display:block;font:600 1.3rem/1.25 var(--titulo);color:var(--crema);margin-bottom:6px}
+.pasos{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 40px;counter-reset:paso}
+.pasos li{counter-increment:paso;display:grid;gap:8px;align-content:start;border-top:2px solid var(--atlantico);padding-top:18px}
+.pasos li::before{content:counter(paso);font:600 2.4rem/1 var(--titulo);color:var(--turquesa-tinta)}
+.pasos h3{font-size:1.25rem}
+.pasos p{color:var(--gris);font-size:16px}
+@media (max-width:900px){.metodo-cabeza{grid-template-columns:1fr}.pasos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.pasos{grid-template-columns:1fr}}
+
+/* App */
+.app{background:var(--atlantico-hondo);color:#E9E2D2}
+.app .envoltura{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(40px,6vw,80px);align-items:center}
+.app h2{color:var(--crema)}
+.etiqueta{display:inline-block;background:var(--arena);color:var(--carbon);font-weight:600;font-size:13px;padding:4px 12px;border-radius:999px;margin-bottom:16px}
+.app ul{margin:24px 0 0;padding:0;list-style:none;display:grid;gap:14px}
+.app li{padding-left:28px;position:relative}
+.app li::before{content:"";position:absolute;left:0;top:.5em;width:14px;height:14px;border-radius:50%;border:2px solid var(--arena)}
+.app li b{color:var(--crema);font-weight:600}
+.app .acciones{margin-top:30px}
+.movil{justify-self:center;width:min(300px,80vw);border-radius:38px;padding:12px;background:#0B2F38;box-shadow:0 0 0 1px rgba(255,255,255,.08),0 40px 70px -30px rgba(0,0,0,.6)}
+.movil img{border-radius:28px;width:100%;height:auto}
+.pie-movil{font-size:13px;color:#C9C1AF;text-align:center;margin-top:12px}
+@media (max-width:900px){.app .envoltura{grid-template-columns:1fr}}
+
+/* Sobre */
+.sobre .envoltura{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(36px,6vw,80px);align-items:center}
+.retrato{border-radius:14px;width:100%;max-width:420px;aspect-ratio:4/5;object-fit:cover}
+.sobre .texto{display:grid;gap:18px}
+.sobre .texto p{color:var(--gris);max-width:62ch}
+.datos{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 0;padding:0;list-style:none}
+.datos li{background:var(--papel);border:1px solid var(--linea);border-radius:999px;padding:8px 16px;font-size:15px;font-weight:500}
+@media (max-width:820px){.sobre .envoltura{grid-template-columns:1fr}.retrato{max-width:340px}}
+
+/* Preguntas */
+.preguntas{background:var(--papel);border-top:1px solid var(--linea)}
+.preguntas .envoltura{max-width:860px}
+details.pregunta{border-top:1px solid var(--linea)}
+details.pregunta:last-of-type{border-bottom:1px solid var(--linea)}
+details.pregunta summary{cursor:pointer;list-style:none;padding:22px 44px 22px 0;font:600 1.2rem/1.35 var(--titulo);color:var(--atlantico);position:relative}
+details.pregunta summary::-webkit-details-marker{display:none}
+details.pregunta summary::after{content:"+";position:absolute;right:6px;top:18px;font:400 1.8rem/1 var(--texto);color:var(--turquesa-tinta)}
+details.pregunta[open] summary::after{content:"−"}
+details.pregunta p{padding:0 0 24px;color:var(--gris);max-width:64ch}
+
+/* Contacto */
+.contacto{background:var(--atlantico);color:#E9E2D2;text-align:left}
+.contacto h2{color:var(--crema);max-width:16ch}
+.contacto .entradilla{color:#E9E2D2;margin-top:18px}
+.correo{margin-top:22px;font-size:15px;color:#D8D0BF}
+.correo a{color:var(--crema);display:inline-block;padding:12px 0}
+
+/* Pie */
+.pie{background:var(--carbon);color:#D9D2C3;font-size:15px}
+.pie .envoltura{padding-top:48px;padding-bottom:36px;display:grid;gap:28px}
+.pie-arriba{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
+.pie .marca{color:var(--crema)}
+.pie a{color:#F0EADF;display:inline-block;padding:12px 0}
+.pie details summary{cursor:pointer;font-weight:600;color:var(--arena);padding:8px 0;min-height:44px;display:flex;align-items:center}
+.pie details p{max-width:72ch;font-size:14px;line-height:1.6;padding-bottom:8px}
+.pie .legal{display:grid;gap:4px;border-top:1px solid #444;padding-top:16px}
+.pie small{font-size:13px;color:#BDB6A8}
+</style>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+ <div class="envoltura">
+  <a class="marca" href="#contenido" aria-label="Isla &amp; Barra, inicio">Isla &amp; Barra</a>
+  <div class="nav">
+   <a class="enlace" href="#servicios">Servicios</a>
+   <a class="enlace" href="#metodo">Cómo trabajo</a>
+   <a class="enlace" href="#app">La app</a>
+   <a class="enlace" href="#sobre">Sobre mí</a>
+   <a class="boton boton-oscuro" href="#contacto">Pide una consulta</a>
+   <details class="menu-movil">
+    <summary aria-label="Abrir el menú">Menú</summary>
+    <nav aria-label="Principal">
+     <a href="#servicios">Servicios</a>
+     <a href="#metodo">Cómo trabajo</a>
+     <a href="#app">La app</a>
+     <a href="#sobre">Sobre mí</a>
+     <a href="#contacto">Contacto</a>
+    </nav>
+   </details>
+  </div>
+ </div>
+</header>
+
+<main id="contenido">
+
+<section class="portada" aria-labelledby="titular">
+ <div class="envoltura">
+  <div>
+   <h1 id="titular">Que cada copa deje lo que tiene que dejar</h1>
+   <p class="entradilla">Asesoría de barra para bares, restaurantes, hoteles, cafeterías y coctelerías en Canarias. Calculo lo que cuesta cada bebida, ajusto la carta y pongo orden en el stock, con números que tú mismo puedes comprobar.</p>
+   <div class="acciones">
+    <a class="boton boton-principal" href="#contacto">Pide una consulta</a>
+    <a class="boton boton-secundario" href="#metodo">Ver cómo trabajo</a>
+   </div>
+   <div class="firma">
+    <img src="assets/samuel-mini.jpg" alt="" width="48" height="48">
+    <p>Te atiende Samuel Garcia, consultor con diez años en hostelería y cuatro en coctelería.</p>
+   </div>
+  </div>
+
+  <form class="escandallo" id="escandallo" aria-labelledby="esc-titulo" novalidate>
+   <h2 id="esc-titulo">Escandallo rápido</h2>
+   <p class="ayuda">Prueba con una bebida de tu carta. El cálculo se hace en tu navegador: no se envía nada.</p>
+   <div class="campos">
+    <div class="campo"><label for="precio">Precio en carta (€)</label><input id="precio" inputmode="decimal" autocomplete="off" value="9,00"></div>
+    <div class="campo"><label for="impuesto">IGIC o IVA incluido (%)</label><input id="impuesto" inputmode="decimal" autocomplete="off" value="7"></div>
+    <div class="campo"><label for="ingredientes">Coste de ingredientes (€)</label><input id="ingredientes" inputmode="decimal" autocomplete="off" value="1,90"></div>
+    <div class="campo"><label for="otros">Otros costes: hielo, guarnición (€)</label><input id="otros" inputmode="decimal" autocomplete="off" value="0,20"></div>
+   </div>
+   <div class="lineas" aria-live="polite">
+    <div class="linea"><span>Precio sin impuestos</span><b id="r-neto">8,41 €</b></div>
+    <div class="linea"><span>Coste directo</span><b id="r-coste">2,10 €</b></div>
+    <div class="linea"><span>Coste sobre el precio</span><b id="r-pc">24,97 %</b></div>
+   </div>
+   <div class="resultado">
+    <span>Te quedan por copa</span>
+    <div><strong id="r-margen">6,31 €</strong><small id="r-pm">75,03 % de margen</small></div>
+   </div>
+   <p class="aviso-error" id="r-error" role="status"></p>
+   <p class="nota">Es margen bruto: antes de personal, alquiler y demás gastos, así que no es beneficio. Un escandallo de verdad parte de tus precios de compra y de cómo se sirve cada copa en tu barra.</p>
+   <a class="boton boton-oscuro" href="#contacto">Quiero el escandallo de toda mi carta</a>
+  </form>
+ </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-problemas">
+ <div class="envoltura">
+  <div class="cabeza-seccion">
+   <h2 id="t-problemas">¿Te suena alguna de estas?</h2>
+   <p class="entradilla">Son las frases con las que empiezan casi todas las revisiones de una barra.</p>
+  </div>
+  <div class="problemas">
+   <div class="problema"><q>No sé cuánto me deja cada cóctel</q><p>Sin el coste real de cada receta, el precio se pone a ojo y la carta puede perder dinero sin que se note.</p><a href="#s-costes">Costes y escandallos</a></div>
+   <div class="problema"><q>El stock no cuadra y no sé por qué</q><p>Entre lo comprado, lo vendido y lo que queda hay una diferencia. Antes de buscar culpables, hay que medirla bien.</p><a href="#s-stock">Control de stock</a></div>
+   <div class="problema"><q>Mi carta no se parece a mi local</q><p>Una carta genérica no vende ni cuenta lo que ofreces. Tampoco ayuda si sus precios no salen de los costes.</p><a href="#s-carta">Cartas de bebidas</a></div>
+   <div class="problema"><q>Quiero una coctelería con criterio</q><p>Cócteles con identidad propia que además salgan bien de números desde el primer día.</p><a href="#s-cocteleria">Coctelería para tu local</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="seccion servicios" id="servicios" aria-labelledby="t-servicios">
+ <div class="envoltura">
+  <div class="cabeza-seccion">
+   <h2 id="t-servicios">Lo que hago en tu barra</h2>
+   <p class="entradilla">Asesoramiento a medida de cada local, centrado en lo que más pesa en la rentabilidad del día a día.</p>
+  </div>
+  <article class="servicio" id="s-costes">
+   <div><h3>Costes y escandallos</h3><p class="para">Para saber cuánto cuesta cada bebida, cuánto deja y a qué precio conviene venderla.</p></div>
+   <div><p class="recibes">Qué te llevas</p><ul><li>El coste de cada receta, calculado con tus precios de compra.</li><li>El margen de cada bebida de la carta y las que conviene revisar.</li><li>Precios propuestos con su razonamiento, para que decidas tú.</li></ul></div>
+  </article>
+  <article class="servicio" id="s-carta">
+   <div><h3>Cartas de bebidas personalizadas</h3><p class="para">La carta de tu local, pensada para tu público, tu estilo y tus márgenes.</p></div>
+   <div><p class="recibes">Qué te llevas</p><ul><li>Una selección de bebidas que encaja con tu negocio.</li><li>Recetas con medidas para que cada copa salga igual.</li><li>Precios que parten del coste de cada bebida.</li></ul></div>
+  </article>
+  <article class="servicio" id="s-stock">
+   <div><h3>Control de stock</h3><p class="para">Qué entra, qué sale y qué no cuadra, con un método para revisar las diferencias.</p></div>
+   <div><p class="recibes">Qué te llevas</p><ul><li>La comparación entre lo vendido y lo que ha salido del almacén.</li><li>Las diferencias ordenadas por importancia y con su dato.</li><li>Un seguimiento para comprobar si las medidas funcionan.</li></ul></div>
+  </article>
+  <article class="servicio" id="s-cocteleria">
+   <div><h3>Coctelería para tu local</h3><p class="para">Una propuesta de cócteles con identidad propia y con el coste controlado desde el principio.</p></div>
+   <div><p class="recibes">Qué te llevas</p><ul><li>Cócteles pensados para tu público y tu equipo.</li><li>Recetas con medidas y su coste por copa.</li><li>Una carta que se puede preparar bien en pleno servicio.</li></ul></div>
+  </article>
+ </div>
+</section>
+
+<section class="seccion" id="metodo" aria-labelledby="t-metodo">
+ <div class="envoltura">
+  <div class="metodo-cabeza">
+   <div class="cabeza-seccion" style="margin:0">
+    <h2 id="t-metodo">Primero medimos, después recomendamos</h2>
+    <p class="entradilla">Cada revisión sigue los mismos seis pasos, de la primera visita al informe.</p>
+   </div>
+   <div class="principio"><strong>Sin promesas antes de medir</strong>No te prometo ahorros antes de tener los datos. Y una diferencia de stock no demuestra que falte nada: primero se comprueban los números y después se busca la causa.</div>
+  </div>
+  <ol class="pasos">
+   <li><h3>Conozco tu local</h3><p>Tipo de negocio, periodo que vamos a analizar y qué te preocupa de la barra.</p></li>
+   <li><h3>Inventario de la barra</h3><p>Productos, formatos y lo que pagas por cada uno.</p></li>
+   <li><h3>Escandallo de la carta</h3><p>Coste y margen de cada bebida con tus recetas.</p></li>
+   <li><h3>Ventas y stock</h3><p>Lo vendido frente a lo que ha salido del almacén en el mismo periodo.</p></li>
+   <li><h3>Diagnóstico</h3><p>Cada hallazgo con el dato que lo respalda y una recomendación concreta.</p></li>
+   <li><h3>Informe y seguimiento</h3><p>Lo revisamos juntos y después comprobamos si las medidas han funcionado.</p></li>
+  </ol>
+ </div>
+</section>
+
+<section class="seccion app" id="app" aria-labelledby="t-app">
+ <div class="envoltura">
+  <div>
+   <span class="etiqueta">En fase de pruebas</span>
+   <h2 id="t-app">Isla &amp; Barra Control</h2>
+   <p class="entradilla" style="color:#E9E2D2;margin-top:18px">La herramienta con la que hago cada revisión: los números de tu barra en el móvil, sin hojas de cálculo sueltas. El acceso es con cuenta, que te doy yo cuando trabajamos juntos.</p>
+   <ul>
+    <li><b>Mi carta:</b> precio, coste y margen de cada bebida, con 35 cócteles clásicos para empezar.</li>
+    <li><b>Mi barra:</b> tus productos por estantes, con el coste por mililitro calculado.</li>
+    <li><b>Stock y diagnóstico:</b> lo vendido frente a lo consumido, y un informe para imprimir.</li>
+    <li><b>Tus datos, a salvo:</b> cada bar solo ve lo suyo; se guardan en la nube (servidores en la UE) y funciona sin conexión.</li>
+   </ul>
+   <div class="acciones">
+    <a class="boton boton-principal" href="https://app.islaybarra.es/isla_barra_control_mvp.html">Entrar en la app</a>
+    <a class="boton boton-secundario" href="mailto:info@islaybarra.es?subject=Solicitar%20acceso%20a%20Isla%20%26%20Barra%20Control&amp;body=Hola%20Samuel%3A%0A%0AMe%20gustar%C3%ADa%20probar%20la%20app%20en%20mi%20local.%0A%0ATipo%20de%20local%3A%20%0ALocalidad%3A%20%0A">Pedir acceso para mi local</a>
+   </div>
+  </div>
+  <figure style="margin:0">
+   <div class="movil"><img src="assets/app-mi-carta.jpg" alt="Pantalla «Mi carta» de la app Isla &amp; Barra Control con las bebidas de un bar de ejemplo" width="540" height="919" loading="lazy"></div>
+   <figcaption class="pie-movil">Pantalla real de la app con un bar de ejemplo.</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section class="seccion sobre" id="sobre" aria-labelledby="t-sobre">
+ <div class="envoltura">
+  <img class="retrato" src="assets/samuel.jpg" alt="Samuel Garcia Gutierrez sonriendo, con una camisa de estampado tropical" width="640" height="800" loading="lazy">
+  <div class="texto">
+   <h2 id="t-sobre">Hola, soy Samuel</h2>
+   <p>Llevo diez años en hostelería, cuatro de ellos en coctelería, y he trabajado en hoteles, bares y cafeterías. Como responsable de bares he llevado el stock y los pedidos, así que conozco de primera mano lo que pasa en una barra un sábado por la noche.</p>
+   <p>Isla &amp; Barra nace en Canarias para acompañar a bares, restaurantes, hoteles, cafeterías y coctelerías en lo que más pesa en su rentabilidad: bebidas, costes, márgenes y stock. Mi propuesta combina asesoramiento práctico, herramientas digitales claras y decisiones respaldadas por datos.</p>
+   <ul class="datos" aria-label="Experiencia">
+    <li>10 años en hostelería</li><li>4 en coctelería</li><li>Responsable de bares</li><li>Hoteles, bares y cafeterías</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="seccion preguntas" aria-labelledby="t-preguntas">
+ <div class="envoltura">
+  <div class="cabeza-seccion"><h2 id="t-preguntas">Preguntas frecuentes</h2></div>
+  <details class="pregunta"><summary>¿Qué necesito para empezar?</summary><p>Solo contarme qué tipo de local tienes y qué te preocupa de la barra. Con eso vemos por dónde empezar y qué datos hacen falta.</p></details>
+  <details class="pregunta"><summary>¿Me dirás cuánto voy a ahorrar?</summary><p>No antes de medir. Primero calculamos costes y comparamos ventas con stock; las recomendaciones llegan con su dato y con una forma de comprobar si funcionan.</p></details>
+  <details class="pregunta"><summary>¿Dónde se guardan los datos de la app?</summary><p>En tu dispositivo y en la nube (Supabase, con servidores en la Unión Europea). Cada bar entra con su cuenta y solo ve sus datos; además puedes exportar una copia de seguridad cuando quieras.</p></details>
+ </div>
+</section>
+
+<section class="seccion contacto" id="contacto" aria-labelledby="t-contacto">
+ <div class="envoltura">
+  <h2 id="t-contacto">Hablemos de tu barra</h2>
+  <p class="entradilla">Cuéntame qué tipo de negocio tienes y qué te preocupa de la barra. Empezamos por ahí.</p>
+  <div class="acciones">
+   <a class="boton boton-principal" href="mailto:info@islaybarra.es?subject=Consulta%20Isla%20%26%20Barra&amp;body=Hola%20Samuel%3A%0A%0ATipo%20de%20local%3A%20%0ALocalidad%3A%20%0AQu%C3%A9%20me%20preocupa%20de%20la%20barra%3A%20%0A">Escríbeme por correo</a>
+   <a class="boton boton-secundario" href="https://instagram.com/islaybarra.hosteleria" rel="noopener">Instagram @islaybarra.hosteleria</a>
+  </div>
+  <p class="correo">O directamente a <a href="mailto:info@islaybarra.es">info@islaybarra.es</a></p>
+ </div>
+</section>
+
+</main>
+
+<footer class="pie">
+ <div class="envoltura">
+  <div class="pie-arriba">
+   <div><a class="marca" href="#contenido">Isla &amp; Barra</a><p style="margin-top:8px">Ideas digitales para hostelería</p></div>
+   <p>Samuel Garcia Gutierrez · <a href="mailto:info@islaybarra.es">info@islaybarra.es</a></p>
+  </div>
+  <div class="legal">
+   <nav aria-label="Textos legales" style="display:flex;flex-wrap:wrap;gap:0 22px"><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></nav>
+   <small>© 2026 Isla &amp; Barra</small>
+  </div>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var f=document.getElementById('escandallo');
+ var num=function(id){var t=document.getElementById(id).value.trim().replace(/\s|€|%/g,'');if(t.indexOf(',')>=0)t=t.replace(/\./g,'').replace(',','.');var n=Number(t);return t===''?0:n};
+ var eur=function(n){return n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})+' €'};
+ var pct=function(n){return n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})+' %'};
+ var set=function(id,t){document.getElementById(id).textContent=t};
+ function calc(){
+  var precio=num('precio'),imp=num('impuesto'),ing=num('ingredientes'),otros=num('otros');
+  if([precio,imp,ing,otros].some(function(n){return !isFinite(n)||n<0})||imp>100){set('r-error','Revisa los números: usa cifras como 9,50 y sin valores negativos.');return}
+  set('r-error','');
+  var neto=precio/(1+imp/100),coste=ing+otros,margen=neto-coste;
+  set('r-neto',eur(neto));set('r-coste',eur(coste));
+  set('r-margen',eur(margen));
+  if(neto>0){set('r-pc',pct(coste/neto*100));set('r-pm',margen<0?'el coste supera el precio sin impuestos':pct(margen/neto*100)+' de margen')}
+  else{set('r-pc','—');set('r-pm','pon el precio para ver el margen')}
+ }
+ f.addEventListener('input',calc);f.addEventListener('submit',function(e){e.preventDefault()});calc();
+ document.querySelectorAll('.menu-movil nav a').forEach(function(a){a.addEventListener('click',function(){a.closest('details').removeAttribute('open')})});
+})();
+</script>
+</body>
+</html>
