@@ -19,6 +19,24 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - `web/borrador-carta/` — borrador de rediseño «la web como una carta» (no publicado).
 - `informes/` — informe semanal y `creditos.md`.
 
+## Estado actual (actualizado el 2026-11-02)
+- **Netlify sin créditos de publicación** (aviso del 2-11-2026): las publicaciones a producción están en pausa para la app y para la web; las dos siguen en línea con su versión anterior. Samuel ha decidido **no subir actualizaciones por ahora**. En tareas e informes no propongas «subir a Netlify» ni des por hecho que algo se publicó; si hay algo listo, apúntalo como «pendiente de publicar cuando vuelva Netlify». Alternativa propuesta y **sin decidir**: Cloudflare Pages (gratis; entiende el mismo `_headers`; solo cambiaría el registro `app` en Hostalia). No migres nada sin que Samuel lo pida.
+- **App** (`Isla-barra-control`): `main` está en la **0.4.6**: «Descargar informe PDF» (la app genera el PDF del informe) y, en la 0.4.5, el arreglo del fallo intermitente de Firefox al guardar una bebida. `app.islaybarra.es` sigue con una versión anterior (no se ha podido publicar).
+- **Higgsfield**: la semana del 2 al 8 de noviembre ya pasa del límite (78 créditos en el Reel del gin-tonic, ver `informes/creditos.md`). No generar nada más hasta el lunes 9.
+- **Semana del 2 al 8 de noviembre**: preparada en el portátil y copiada en `redes/2026-11-02/` (textos e imágenes; los 3 Reels están en el PC). Temas ya usados: coste del gin-tonic (Reel), 7 cosas que medir antes de subir precios (carrusel), método en 6 pasos (carrusel), la ginebra sube y la carta no (imagen), control de stock en 3 números (Reel), «sin promesas de ahorro» (Reel) e historias de la app. No repetirlos tal cual.
+
+## PC de Samuel (la «sesión del portátil»)
+Todo lo de Isla & Barra está en `Escritorio\Isla y Barra` (OneDrive), con `LEEME.md` y `CLAUDE.md`. Equivalencias con este repositorio:
+| Repositorio | PC |
+|---|---|
+| `redes/AAAA-MM-DD/` | `03_Redes_sociales\Instagram\Publicaciones\AAAA-MM-DD_semana_…\` |
+| `redes/destacadas/` | `03_Redes_sociales\Instagram\Destacadas\` |
+| `redes/reel_*/` | `03_Redes_sociales\Instagram\Reels\reel_*\` |
+| `web/actual/` | `02_Web\web-isla-barra\` |
+| `web/borrador-carta/` | `02_Web\web-borrador-carta\` |
+| repositorio de la app | `01_App\Isla-barra-control\` |
+Cuando dejes algo para la sesión del portátil (montar un Reel, descargar planos, publicar), di en qué carpeta del PC va. Lo de cada cliente va en `04_Clientes\<bar>\` del PC y **nunca** en este repositorio.
+
 ## Habilidades (en `.claude/skills/` de este repositorio, ya revisadas)
 - **Redes (Instagram)**: `ig-*` (planificar la semana, pies de foto, carruseles, historias, Reels con ganchos puntuados, hashtags, perfil, comentarios, respuestas, mensajes, humanizar textos). Los scripts de `ig-human` detectan sobre todo patrones en inglés: con textos en español, tomarlos con cautela.
 - **Contenido y marketing**: `brand-voice` (voz de Samuel a partir de sus textos reales), `content-engine`, `marketing-campaign`.
