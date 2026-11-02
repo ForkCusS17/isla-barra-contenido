@@ -15,7 +15,7 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 
 ## Calendario y publicación (desde el 2-11-2026)
 - `redes/CALENDARIO.md` es la **única fuente de verdad** de lo que se publica: temas por semana, cifras de ejemplo fijas, lo ya publicado y lo aparcado. Toda pieza nueva sale de ahí; al prepararla o programarla, actualizar su estado en el calendario. No repetir un tema publicado hace menos de 4 semanas ni dar otras cifras para el mismo ejemplo.
-- **Solo SocialClaw** para el feed (publicaciones, carruseles, Reels). Meta Business Suite ya no se usa para programar. Las historias con stickers las publica Samuel desde la app (dejarlas preparadas con su sticker).
+- **Solo SocialClaw** para el feed (publicaciones, carruseles, Reels). Meta Business Suite ya no se usa para programar (el 2-11-2026 Samuel borró allí todo lo programado; los textos están en `Textos_de_Meta_borrados.md`). Las historias con stickers las publica Samuel desde la app (dejarlas preparadas con su sticker).
 - Flujo semanal: la tarea del lunes prepara la semana del calendario y deja `redes/AAAA-MM-DD/schedule.json` **validado**; en una sesión del portátil, Claude enseña la semana entera a Samuel y, con su «sí», ejecuta `socialclaw apply` de una vez.
 - Trato «ustedes» en todo lo nuevo (pies, rótulos e imágenes).
 
