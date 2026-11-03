@@ -38,7 +38,7 @@ al programar o publicar, actualizar el estado. Versión 2 (2-11-2026), **pendien
 |---|---|---|---|---|---|
 | Jue 5, 12:00 | Carrusel (8) | Así trabajamos: 6 pasos, primero los datos | `4_jueves` (diapositivas 3, 4 y 8 rehechas en «ustedes») | Lo publica **Samuel desde la app**: `JUEVES_5_publicar_desde_la_app.md` | preparado |
 | Sáb 7, 11:00 | Reel | Control de stock en 3 números (+500 ml) | `6_sabado/reel_stock.mp4` (cierre rehecho en «ustedes») | Programado en SocialClaw el 3-11-2026 (`run_mw0mxneb_bb991ebc4e97`, `post_mw0mxneb_e7ea12985abe`) | programado |
-| Historias | — | Mié 4: pregunta del día y encuesta · Jue 5: encuesta «¿Por qué paso empezarían?» · Vie 6: imagen «la ginebra sube y la carta no» · Sáb 7: deslizador «¿Cuánto confían en su último inventario?» · Dom 8: la app con enlace a islaybarra.es | `3_miercoles`, `4_jueves`, `5_viernes`, `6_sabado`, `7_domingo` | Las publica Samuel (las de jueves y sábado ya en «ustedes»; las de miércoles, viernes y domingo sin revisar) | pendiente |
+| Historias | — | Mié 4: pregunta del día y encuesta · Jue 5: encuesta «¿Por qué paso empezarían?» · Vie 6: imagen «la ginebra sube y la carta no» · Sáb 7: deslizador «¿Cuánto confían en su último inventario?» · Dom 8: la app con enlace a islaybarra.es | `3_miercoles`, `4_jueves`, `5_viernes`, `6_sabado`, `7_domingo` | Las publica Samuel: todas revisadas y en «ustedes»; guía con stickers en `HISTORIAS_semana_publicar_desde_la_app.md` | preparado |
 
 El martes 3 no sale nada en el feed (el Reel del gin-tonic sigue reciente).
 
