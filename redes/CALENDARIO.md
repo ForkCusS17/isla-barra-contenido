@@ -32,12 +32,12 @@ al programar o publicar, actualizar el estado. Versión 2 (2-11-2026), **pendien
 | Jue 5 · 12:00 | Carrusel «así trabajamos en 6 pasos» | Meta | **programado** |
 | Vie 6 · 13:30 | Historia «La ginebra ha subido 1 €» (sin sticker) | Meta | **programada** |
 | Sáb 7 · 11:00 | Reel «control de stock» | SocialClaw (`run_mw0mxneb_bb991ebc4e97`) | **programado** |
-| Dom 8 · 11:00 | Historia «la app en el móvil» (sin sticker) | Meta | pendiente (se cortó Chrome) |
-| Dom 8 · 11:05 | Historia «la app» + enlace a islaybarra.es «Más información» | Meta | pendiente |
+| Dom 8 · 11:00 | Historia «la app en el móvil» (sin sticker) | Meta | **programada** |
+| Dom 8 · 11:05 | Historia «la app» + enlace a islaybarra.es «Más información» | Meta | **programada** |
 | Mar 10 · 13:00 | Reel «7 cosas que medir antes de tocar la carta» | SocialClaw (`run_mw0paiyr_4158a20c4269`) | **programado** |
 | Jue 12 · 12:00 | Imagen «margen bruto no es beneficio» | SocialClaw (`run_mw0nifgw_0fc44704d4b4`) | **programado** |
 | Sáb 14 · 11:00 | Reel «lo que no se apunta, no existe» | SocialClaw (`run_mw0paiyr_4158a20c4269`) | **programado** |
-| Dom 15 · 11:00 | Historia «la semana en 3 ideas» + enlace «Cómo trabajamos» | Meta | pendiente |
+| Dom 15 · 11:00 | Historia «la semana en 3 ideas» + enlace «Cómo trabajamos» | Meta | **programada** |
 | Mar 17 · 12:00 | Imagen «misma receta, distinta botella» | SocialClaw | **programado** |
 | Jue 19 · 12:00 | Imagen «buscamos 5 bares» | SocialClaw | **programado** |
 | Sáb 21 · 11:00 | Reel «sin promesas» (rehecho en «ustedes») | SocialClaw (`run_mw0paiyr_4158a20c4269`) | **programado** |
