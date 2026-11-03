@@ -1,0 +1,74 @@
+{
+  "timezone": "Atlantic/Canary",
+  "mode": "scheduled",
+  "posts": [
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Carrusel: así trabajamos en 6 pasos (jue 5)",
+      "description": "Así trabajo cuando entro en un bar: 6 pasos, y las recomendaciones van al final, nunca al principio.\n\n1. Ficha del local y periodo que vamos a analizar\n2. La barra: cada producto con su precio de compra\n3. La carta: coste y margen bruto de cada bebida\n4. Stock: lo que salió frente a lo que debería haber salido\n5. Diagnóstico: cada hallazgo con su evidencia\n6. Informe: los hechos por un lado y las hipótesis por otro\n\nLes sirve como lista de comprobación aunque lo hagan por su cuenta.\n\n¿Quieren verlo aplicado a su local? Escríbanme «COSTE» por mensaje o a info@islaybarra.es.\n\n#consultoriahostelera #asesoriahostelera #gestiondebares #hosteleriacanarias",
+      "publish_at": "2026-11-05T12:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mvzuph8q_d97c63c69af6",
+          "url": "https://getsocialclaw.com/media/asset_mvzuph8q_d97c63c69af6/dlv_mvzuph8q_112219dfd718/carrusel_01.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupjbx_fde7198fb5b1",
+          "url": "https://getsocialclaw.com/media/asset_mvzupjbx_fde7198fb5b1/dlv_mvzupjbx_27f44d0f4c07/carrusel_02.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupl9u_4282d70c09ec",
+          "url": "https://getsocialclaw.com/media/asset_mvzupl9u_4282d70c09ec/dlv_mvzupl9u_933f9462b64b/carrusel_03.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupnx2_b1edbe5d33ba",
+          "url": "https://getsocialclaw.com/media/asset_mvzupnx2_b1edbe5d33ba/dlv_mvzupnx2_9a56932f3fba/carrusel_04.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupppl_103e0e2fe6dd",
+          "url": "https://getsocialclaw.com/media/asset_mvzupppl_103e0e2fe6dd/dlv_mvzupppl_fe1cf29f3405/carrusel_05.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzuprp2_e988b02ce83e",
+          "url": "https://getsocialclaw.com/media/asset_mvzuprp2_e988b02ce83e/dlv_mvzuprp2_219cb1bac5c3/carrusel_06.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupu0k_8928189ccb64",
+          "url": "https://getsocialclaw.com/media/asset_mvzupu0k_8928189ccb64/dlv_mvzupu0k_2041d2159a43/carrusel_07.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        },
+        {
+          "id": "asset_mvzupwh0_75b31b328765",
+          "url": "https://getsocialclaw.com/media/asset_mvzupwh0_75b31b328765/dlv_mvzupwh0_149e34300a6f/carrusel_08.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        }
+      ],
+      "settings": {
+        "instagramPublishMode": "auto"
+      }
+    }
+  ]
+}

@@ -16,9 +16,10 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 
 ## Calendario y publicación (desde el 2-11-2026)
 - `redes/CALENDARIO.md` es la **única fuente de verdad** de lo que se publica: temas por semana, cifras de ejemplo fijas, lo ya publicado y lo aparcado. Toda pieza nueva sale de ahí; al prepararla o programarla, actualizar su estado en el calendario. No repetir un tema publicado hace menos de 4 semanas ni dar otras cifras para el mismo ejemplo.
-- **Solo SocialClaw** para el feed (publicaciones, carruseles, Reels). Meta Business Suite ya no se usa para programar (el 2-11-2026 Samuel borró allí todo lo programado; los textos están en `Textos_de_Meta_borrados.md`). Las historias con stickers las publica Samuel desde la app (dejarlas preparadas con su sticker).
+- **SocialClaw** para Reels e imágenes sueltas; los **carruseles** los publica Samuel desde la app (SocialClaw no los admite con esta cuenta): dejar en la carpeta de la semana un `DIA_publicar_desde_la_app.md` con los pasos y el texto. Meta Business Suite ya no se usa para programar (el 2-11-2026 Samuel borró allí todo lo programado; los textos están en `Textos_de_Meta_borrados.md`). Las historias con stickers las publica Samuel desde la app (dejarlas preparadas con su sticker).
 - Flujo semanal: la tarea del lunes prepara la semana del calendario y deja `redes/AAAA-MM-DD/schedule.json` **validado**; en una sesión del portátil, Claude enseña la semana entera a Samuel y, con su «sí», ejecuta `socialclaw apply` de una vez.
 - Trato «ustedes» en todo lo nuevo (pies, rótulos e imágenes).
+- **Límites de SocialClaw con esta cuenta (comprobado el 2-11-2026 al validar)**: **un solo archivo por publicación** (no hay carruseles: «Instagram currently supports one media asset per post»), y no admite texto alternativo, portada propia del Reel (`instagramCoverUrl`), `instagramShareToFeed` ni `instagramIsAiGenerated`. Sí: imagen suelta o Reel, con `instagramPublishMode` e `instagramPlacement`. Cada archivo se sube con `socialclaw assets upload` y en `schedule.json` va con su `id` y su `url` (el `publicUrl` de la respuesta). Los carruseles se publican desde la app o se convierten en Reel.
 
 ## Estructura
 - `redes/AAAA-MM-DD/` — contenido de cada semana: `PLAN.md`, textos, imágenes, guiones y vídeos listos para publicar a mano.
@@ -27,6 +28,7 @@ Repositorio de trabajo de las **tareas automáticas** de Claude para Isla & Barr
 - `informes/` — informe semanal y `creditos.md`.
 
 ## Estado actual (actualizado el 2026-11-02)
+- **Semana 1 de SocialClaw**: Reel del control de stock programado para el sábado 7-11 a las 11:00 (`run_mw0mxneb_bb991ebc4e97`). El carrusel del jueves 5 lo publica Samuel desde la app (`JUEVES_5_publicar_desde_la_app.md`). No volver a programar ninguno de los dos.
 - **Netlify sin créditos de publicación** (aviso del 2-11-2026): las publicaciones a producción están en pausa para la app y para la web; las dos siguen en línea con su versión anterior. Samuel ha decidido **no subir actualizaciones por ahora**. En tareas e informes no propongas «subir a Netlify» ni des por hecho que algo se publicó; si hay algo listo, apúntalo como «pendiente de publicar cuando vuelva Netlify». Alternativa propuesta y **sin decidir**: Cloudflare Pages (gratis; entiende el mismo `_headers`; solo cambiaría el registro `app` en Hostalia). No migres nada sin que Samuel lo pida.
 - **App** (`Isla-barra-control`): `main` está en la **0.4.6**: «Descargar informe PDF» (la app genera el PDF del informe) y, en la 0.4.5, el arreglo del fallo intermitente de Firefox al guardar una bebida. `app.islaybarra.es` sigue con una versión anterior (no se ha podido publicar).
 - **Higgsfield**: la semana del 2 al 8 de noviembre ya pasa del límite (78 créditos en el Reel del gin-tonic, ver `informes/creditos.md`). No generar nada más hasta el lunes 9.

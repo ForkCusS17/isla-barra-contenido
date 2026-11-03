@@ -4,7 +4,7 @@
 al programar o publicar, actualizar el estado. Versión 2 (2-11-2026), **pendiente de aprobación de Samuel**.
 
 ## Reglas del calendario
-- **Herramienta**: todo el feed (publicaciones, carruseles y Reels) se programa con **SocialClaw**. Meta Business Suite
+- **Herramienta**: los **Reels e imágenes sueltas** se programan con **SocialClaw**; los **carruseles** los publica Samuel desde la app de Instagram (SocialClaw solo admite un archivo por publicación con esta cuenta), con un archivo `DIA_publicar_desde_la_app.md` en la carpeta de la semana con los pasos y el texto. Meta Business Suite
   no se usa para programar (el 2-11-2026 Samuel borró allí todo lo programado). Las **historias** con stickers las publica
   Samuel desde la app.
 - **Aprobación**: cada semana Claude enseña la tabla de la semana con textos e imágenes; con un «sí» de Samuel la programa
@@ -22,6 +22,7 @@ al programar o publicar, actualizar el estado. Versión 2 (2-11-2026), **pendien
 - **Contacto**: info@islaybarra.es (nunca el gmail antiguo) y la palabra «COSTE» por mensaje.
 - **No repetir**: un tema ya publicado no vuelve hasta pasadas 4 semanas, y si vuelve es con otro enfoque y las mismas cifras.
 - Textos de lo que estaba en Meta: `Textos_de_Meta_borrados.md` (las imágenes se perdieron: hay que rehacerlas).
+- **Límites de SocialClaw con esta cuenta (comprobado el 2-11-2026 al validar)**: **un solo archivo por publicación** (no hay carruseles: «Instagram currently supports one media asset per post»), y no admite texto alternativo, portada propia del Reel (`instagramCoverUrl`), `instagramShareToFeed` ni `instagramIsAiGenerated`. Sí: imagen suelta o Reel, con `instagramPublishMode` e `instagramPlacement`. Cada archivo se sube con `socialclaw assets upload` y en `schedule.json` va con su `id` y su `url` (el `publicUrl` de la respuesta). Los carruseles se publican desde la app o se convierten en Reel.
 
 ## Ya publicado (no repetir)
 | Fecha | Tema |
@@ -35,9 +36,9 @@ al programar o publicar, actualizar el estado. Versión 2 (2-11-2026), **pendien
 ## Semana 1 · 3 al 8 de noviembre (material ya preparado en `Publicaciones\2026-11-02_semana_2-8_nov`)
 | Día | Formato | Tema | Material | Falta | Estado |
 |---|---|---|---|---|---|
-| Jue 5, 12:00 | Carrusel (8) | Así trabajamos: 6 pasos, primero los datos | `4_jueves` | Revisar las 8 diapositivas; pie en «ustedes» | pendiente |
-| Sáb 7, 11:00 | Reel | Control de stock en 3 números (+500 ml) | `6_sabado` | Revisar rótulos; pie en «ustedes» | pendiente |
-| Historias | — | Mié 4: pregunta del día y encuesta · Vie 6: imagen «la ginebra sube y la carta no» · Dom 8: la app con enlace a islaybarra.es | `3_miercoles`, `5_viernes`, `7_domingo` | Las publica Samuel | pendiente |
+| Jue 5, 12:00 | Carrusel (8) | Así trabajamos: 6 pasos, primero los datos | `4_jueves` (diapositivas 3, 4 y 8 rehechas en «ustedes») | Lo publica **Samuel desde la app**: `JUEVES_5_publicar_desde_la_app.md` | preparado |
+| Sáb 7, 11:00 | Reel | Control de stock en 3 números (+500 ml) | `6_sabado/reel_stock.mp4` (cierre rehecho en «ustedes») | Programado en SocialClaw el 3-11-2026 (`run_mw0mxneb_bb991ebc4e97`, `post_mw0mxneb_e7ea12985abe`) | programado |
+| Historias | — | Mié 4: pregunta del día y encuesta · Jue 5: encuesta «¿Por qué paso empezarían?» · Vie 6: imagen «la ginebra sube y la carta no» · Sáb 7: deslizador «¿Cuánto confían en su último inventario?» · Dom 8: la app con enlace a islaybarra.es | `3_miercoles`, `4_jueves`, `5_viernes`, `6_sabado`, `7_domingo` | Las publica Samuel (las de jueves y sábado ya en «ustedes»; las de miércoles, viernes y domingo sin revisar) | pendiente |
 
 El martes 3 no sale nada en el feed (el Reel del gin-tonic sigue reciente).
 

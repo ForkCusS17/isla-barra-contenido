@@ -1,0 +1,25 @@
+{
+  "timezone": "Atlantic/Canary",
+  "mode": "scheduled",
+  "posts": [
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Reel: control de stock en 3 números (sáb 7)",
+      "description": "Control de stock de un producto en 3 números: lo que salió, lo que debería haber salido y la diferencia.\n\nAsí lo hago en cada barra que reviso:\n\nConsumo real = lo que había + lo que entró − lo que queda.\nConsumo teórico = lo vendido según caja y recetas + invitaciones, mermas y pruebas.\nDiferencia = real − teórico.\n\nEn el ejemplo salen 500 ml de diferencia en una semana. Esos 500 ml no demuestran nada por sí solos: antes de sacar conclusiones, se revisan los datos. ¿Están apuntadas todas las invitaciones? ¿Se contó igual el primer día que el último?\n\nUna diferencia es una pregunta, no una acusación.\n\nGuárdenlo para su próximo inventario. Cifras de ejemplo.\n\n#controldestock #inventario #gestiondebares #hosteleriacanarias",
+      "publish_at": "2026-11-07T11:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mvzupzt7_50bd4abf597e",
+          "url": "https://getsocialclaw.com/media/asset_mvzupzt7_50bd4abf597e/dlv_mvzupzt7_f6177203c0d3/reel_stock.mp4",
+          "managed": true,
+          "kind": "video",
+          "mime": "video/mp4"
+        }
+      ],
+      "settings": {
+        "instagramPublishMode": "reel"
+      }
+    }
+  ]
+}
