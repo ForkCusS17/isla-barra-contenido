@@ -1,0 +1,63 @@
+{
+  "timezone": "Atlantic/Canary",
+  "mode": "scheduled",
+  "posts": [
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Imagen: margen bruto no es beneficio (jue 12)",
+      "publish_at": "2026-11-12T12:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0ndppp_9cc517ebca11",
+          "url": "https://getsocialclaw.com/media/asset_mw0ndppp_9cc517ebca11/dlv_mw0ndppp_405fc3c67b05/imagen_margen_bruto.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        }
+      ],
+      "description": "Margen bruto = precio sin impuestos − coste de los ingredientes. Es lo que queda para pagar todo lo demás: personal, alquiler, suministros… No es beneficio.\n\nSi el mojito de nuestro ejemplo deja 6,45 €, eso no es lo que gana el bar: es lo que tiene para cubrir el resto de gastos.\n\n¿Lo tienen presente al poner precios? Si quieren hacer la cuenta con su carta, escríbannos «COSTE» por mensaje.\n\nCifras de ejemplo.\n\n#hosteleriacanarias #margenes #controldecostes #cocteleria",
+      "settings": {
+        "instagramPublishMode": "image"
+      }
+    },
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Imagen: misma receta, distinta botella (mar 17)",
+      "publish_at": "2026-11-17T12:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0ndryi_8b437eec3d79",
+          "url": "https://getsocialclaw.com/media/asset_mw0ndryi_8b437eec3d79/dlv_mw0ndryi_0d99e17c49cf/imagen_misma_receta.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        }
+      ],
+      "description": "Misma receta, distinta botella. Con cifras de ejemplo, el mojito pasa de costar 1,55 € con un ron de 14 € a costar 2,55 € con uno de 28 €, y el margen bruto baja de 6,45 € a 5,45 €.\n\nPor eso conviene calcular con su botella y su precio de compra, no con una receta genérica.\n\n¿Cuántas botellas distintas usan para el mismo cóctel? Si quieren la cuenta con las suyas, escríbannos «COSTE» por mensaje.\n\nCifras de ejemplo. Precio sin impuestos: 8,00 €.\n\n#cocteleria #controldecostes #hosteleriacanarias #bartender",
+      "settings": {
+        "instagramPublishMode": "image"
+      }
+    },
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Imagen: buscamos 5 bares (jue 19)",
+      "publish_at": "2026-11-19T12:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0nduiu_f4e04e373f27",
+          "url": "https://getsocialclaw.com/media/asset_mw0nduiu_f4e04e373f27/dlv_mw0nduiu_dfbbd6fe425a/imagen_buscamos_bares.png",
+          "managed": true,
+          "kind": "image",
+          "mime": "image/png"
+        }
+      ],
+      "description": "Buscamos hasta 5 bares para probar la herramienta con su carta.\n\nLes pedimos unos 60 minutos y su opinión sincera: media hora para contarnos cómo trabajan y el resto, probándola juntos.\n\nSi llevan un bar con cócteles y quieren participar, escríbannos por mensaje o a info@islaybarra.es y les contamos cómo sería.\n\n#hosteleriacanarias #cocteleria #bares #gestiondebares",
+      "settings": {
+        "instagramPublishMode": "image"
+      }
+    }
+  ]
+}

@@ -46,15 +46,15 @@ El martes 3 no sale nada en el feed (el Reel del gin-tonic sigue reciente).
 | Día | Formato | Tema | Material | Falta |
 |---|---|---|---|---|
 | Mar 10, 12:00 | Carrusel (8) | 7 cosas que medir antes de tocar la carta | `2_martes` | Rehacer la portada (01) con «ustedes» y revisar el resto |
-| Jue 12, 12:00 | Imagen | Margen bruto no es beneficio (mojito 6,45 €) | Texto en `Textos_de_Meta_borrados.md` | Imagen nueva; texto en «ustedes» |
+| Jue 12, 12:00 | Imagen | Margen bruto no es beneficio (mojito 6,45 €) | `Publicaciones/2026-11-09_semana_9-15_nov/4_jueves/imagen_margen_bruto.png` | **Programado** en SocialClaw el 3-11-2026 (`run_mw0nifgw_0fc44704d4b4`) |
 | Sáb 14, 11:00 | Reel | Mermas e invitaciones: lo que no se apunta no existe | Nuevo (rutina del lunes 9) | Guion con las cifras de stock fijas |
 
 ## Semana 3 · 16 al 22 de noviembre
 | Día | Formato | Tema | Material | Falta |
 |---|---|---|---|---|
-| Mar 17, 12:00 | Imagen | Misma receta, distinta botella (1,55 € → 2,55 €) | Texto en `Textos_de_Meta_borrados.md` | Imagen nueva; texto en «ustedes» |
-| Jue 19, 12:00 | Imagen | Buscamos hasta 5 bares para probar la herramienta | Texto en `Textos_de_Meta_borrados.md` | Imagen nueva sin «tus datos se quedan en tu dispositivo» |
-| Sáb 21, 11:00 | Reel | Sin promesas de ahorro: primero medir | `7_domingo/reel_sin_promesas.mp4` | Revisar rótulos; pie en «ustedes» |
+| Mar 17, 12:00 | Imagen | Misma receta, distinta botella (1,55 € → 2,55 €) | `Publicaciones/2026-11-16_semana_16-22_nov/2_martes/imagen_misma_receta.png` | **Programado** en SocialClaw el 3-11-2026 (`run_mw0nifgw_0fc44704d4b4`) |
+| Jue 19, 12:00 | Imagen | Buscamos hasta 5 bares para probar la herramienta | `Publicaciones/2026-11-16_semana_16-22_nov/4_jueves/imagen_buscamos_bares.png` | **Programado** en SocialClaw el 3-11-2026 (`run_mw0nifgw_0fc44704d4b4`) |
+| Sáb 21, 11:00 | Reel | Sin promesas de ahorro: primero medir | `7_domingo/reel_sin_promesas.mp4` (casi todos los rótulos en «tú») | **Rehacer el vídeo entero en «ustedes»** (mismo guion); pie en «ustedes» |
 
 ## Semana 4 · 23 al 29 de noviembre (se preparan el lunes 23)
 | Día | Formato | Tema |
