@@ -1,0 +1,63 @@
+{
+  "timezone": "Atlantic/Canary",
+  "mode": "scheduled",
+  "posts": [
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Reel: 7 cosas que medir antes de tocar la carta (mar 10)",
+      "publish_at": "2026-11-10T13:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0oi2zy_8233a4bea4c7",
+          "url": "https://getsocialclaw.com/media/asset_mw0oi2zy_8233a4bea4c7/dlv_mw0oi2zy_4e9a8a8b950d/reel_7cosas.mp4",
+          "managed": true,
+          "kind": "video",
+          "mime": "video/mp4"
+        }
+      ],
+      "description": "Antes de subir los precios de su carta, midan estas 7 cosas de la barra. Son las primeras que reviso en cada local.\n\n1. La medida real de cada copa\n2. El precio actual del proveedor\n3. Las invitaciones\n4. Las mermas\n5. El escandallo de cada receta\n6. El stock al principio y al final\n7. El periodo que comparan\n\nNinguna demuestra nada por sí sola. Juntas les dicen dónde mirar antes de decidir.\n\nGuárdenlo para su próximo inventario. Si quieren medirlo con su barra, escríbannos «COSTE» por mensaje.\n\n#inventario #gestiondebares #costesenhosteleria #hosteleriacanarias",
+      "settings": {
+        "instagramPublishMode": "reel"
+      }
+    },
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Reel: lo que no se apunta, no existe (sáb 14)",
+      "publish_at": "2026-11-14T11:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0oi5ka_9c59195fe88b",
+          "url": "https://getsocialclaw.com/media/asset_mw0oi5ka_9c59195fe88b/dlv_mw0oi5ka_73bfc564bed3/reel_no_se_apunta.mp4",
+          "managed": true,
+          "kind": "video",
+          "mime": "video/mp4"
+        }
+      ],
+      "description": "Lo que no se apunta, no existe. Y la diferencia del stock crece.\n\nMismo ejemplo que el sábado pasado: en una semana salieron 6.300 ml de ginebra.\nSi solo cuentan las ventas (5.000 ml), la diferencia es de +1.300 ml.\nSi además apuntan las invitaciones, mermas y pruebas (800 ml), la diferencia baja a +500 ml.\n\nLas mismas copas. Otra diferencia. Por eso conviene apuntarlo todo el mismo día, no a final de semana.\n\nUna diferencia es una pregunta, no una acusación.\n\nCifras de ejemplo.\n\n#controldestock #inventario #gestiondebares #hosteleriacanarias",
+      "settings": {
+        "instagramPublishMode": "reel"
+      }
+    },
+    {
+      "provider": "instagram",
+      "account": "instagram:standalone:17841464409259602",
+      "name": "Reel: sin promesas de ahorro (sáb 21)",
+      "publish_at": "2026-11-21T11:00:00Z",
+      "assets": [
+        {
+          "id": "asset_mw0oi8pv_fbda936b5829",
+          "url": "https://getsocialclaw.com/media/asset_mw0oi8pv_fbda936b5829/dlv_mw0oi8pv_19ae82e96213/reel_sin_promesas.mp4",
+          "managed": true,
+          "kind": "video",
+          "mime": "video/mp4"
+        }
+      ],
+      "description": "Si alguien les promete ahorrar un 30 % sin haber visto su barra, desconfíen.\n\nYo no doy porcentajes antes de medir. No sé qué pasa en un bar hasta ver sus costes, sus recetas y su stock.\n\nPor eso trabajo en ese orden: primero los datos, después las recomendaciones. Y lo que decidan con ellos, lo deciden ustedes.\n\nSoy Samuel, de Isla & Barra. Ayudo a bares y restaurantes de Canarias a entender sus números.\n\nMándenselo a ese compañero de hostelería al que le prometieron milagros.\n\n#consultoriahostelera #asesoriahostelera #hosteleriacanarias #barlanzarote",
+      "settings": {
+        "instagramPublishMode": "reel"
+      }
+    }
+  ]
+}
